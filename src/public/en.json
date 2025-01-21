@@ -1,0 +1,110 @@
+{
+  "about": {
+    "text": "Standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.tandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. Standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.tandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five cent,",
+    "secondery_text": "k a gallStandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.ey of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting",
+    "extra_title": "ABOUT ME",
+    "title": "Yoga for the community"
+  },
+  "points": 
+    ["Small classes with personal attention for every student", "Dynamic sessions tailored for both beginners and advanced practitioners","Experience Vinyasa Ashtanga yoga that nurtures mind and body", "Join a supportive and welcoming community"]
+,
+  "studio": {
+    "text": "Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  but also the leap into electronic typesetting. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    "title": "The studio",
+    "points": [
+      "when an unknown printer took a galley of type and scrambled",
+      "gallStandard dummy text ever since the 1500s, when an unknown printe",
+      " unknown printer took a galley of type and scrambled it to make"
+    ],
+    "images": [
+      {
+        "name": "dani3.jpg",
+        "xs": 11
+      },
+      {
+        "name": "studio1.jpg",
+        "xs": 5
+      },
+      {
+        "name": "studio2.jpg",
+        "xs": 6
+      }
+    ]
+  },
+  "yoga_event": {
+    "text": "Standard dummy text ever since the, when an unknown printer took a gallStandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.ey of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    "secondery_text": "k a gallStandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.ey of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting",
+    "title": "Yoga event",
+    "images": [
+      {
+        "name": "yogaEvent2.jpg",
+        "xs": 6
+      },
+      {
+        "name": "yogaEvent6.png",
+        "xs": 6
+      },
+      {
+        "name": "yogaEvent5.png",
+        "xs": 6
+      },
+      {
+        "name": "yogaEvent3.jpg",
+        "xs": 6
+      }
+    ]
+  },
+  "retreat": {
+    "text": "Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  but also the leap into electronic typesetting. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    "title": "Retreats",
+    "images": [
+      {
+        "name": "dani3.jpg",
+        "xs": 5
+      },
+      {
+        "name": "studio1.jpg",
+        "xs": 6
+      },
+      {
+        "name": "studio2.jpg",
+        "xs": 3
+      },
+      {
+        "name": "yogaEvent3.jpg",
+        "xs": 4
+      },
+      {
+        "name": "yogaEvent4.jpg",
+        "xs": 4
+      }
+    ]
+  },
+  "content_creator": {
+    "text": "Standard dummy text ever since theremainin. It has survived not only five centuries, but also the leap into electronic typesetting.",
+    "title": "Content creator",
+    "videos": [
+      "https://www.instagram.com/reel/DCwPgS0ICUl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "https://www.w3schools.com/html/movie.mp4",
+      "https://www.w3schools.com/html/mov_bbb.mp4"
+    ]
+  },
+  "cardsDescription": [
+    {
+      "image": "yoga1.jpg",
+      "description": "has survived not only five centuries"
+    },
+    {
+      "image": "studio2.jpg",
+      "description": "tandard dummy text ever since tht to make"
+    },
+    {
+      "image": "yogaEvent3.jpg",
+      "description": "when an unknown printer took a galley of type and scrambled it to make"
+    }
+  ],
+  "next_events": {
+    "text": "Comming soon...",
+    "title": "Next events"
+  }
+}

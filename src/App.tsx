@@ -152,11 +152,6 @@ function App() {
 }
 
 const Home = () => {
-  const [language, setLanguage] = useState<'En' | 'He'>('He');
-
-  const toggleLanguage = () => {
-    setLanguage((prevLanguage) => (prevLanguage === 'En' ? 'He' : 'En'));
-  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -189,7 +184,7 @@ const Home = () => {
 
   return (
     <div className="App">
-      <Cover language={language} toggleLanguage={toggleLanguage} />
+      <Cover/>
       <AboutTheRetreat />
       <About
         id="about"

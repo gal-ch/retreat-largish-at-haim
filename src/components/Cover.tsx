@@ -1,16 +1,13 @@
 import { Box, Button } from "@mui/material";
 import styled from "styled-components";
-interface CoverProps {
-    language: 'En' | 'He';
-    toggleLanguage: () => void;
-}
 
-const Cover: React.FC<CoverProps> = ({ language, toggleLanguage }) => {
+const Cover: React.FC= () => {
+    const isMobile = window.innerWidth <= 767; 
     return (
         <>
             <Box
                 sx={{
-                    position: "relative", 
+                    position: "relative",
                     height: "100vh",
                     display: "flex",
                     flexDirection: "column",
@@ -31,17 +28,16 @@ const Cover: React.FC<CoverProps> = ({ language, toggleLanguage }) => {
                         width: "100%",
                         height: "100%",
                         objectFit: "cover",
-                        zIndex: -1, 
+                        zIndex: -1,
                     }}
                 >
-                    <source src={"./assets/videos/main.mp4"} type="video/mp4" />
-                    Your browser does not support the video tag.
+                    <source src={isMobile ? require('../assets/videos/main.mp4'): "https://prod-green-market.s3.amazonaws.com/main.mp4"} type="video/mp4" />
                 </video>
                 <TextContainer>
                     <Title>ריטריט להרגיש את החיים</Title>
                     <Title style={{ fontSize: '64px' }}>אוהל יעל</Title>
 
-                    <Title style={{ fontWeight: '800',   fontFamily: "Secular One, serif"}}>27/2-1/3</Title>
+                    <Title style={{ fontWeight: '800', fontFamily: "Secular One, serif" }}>27/2-1/3</Title>
                     <Button
                         variant="outlined"
                         target="_blank"
@@ -50,12 +46,12 @@ const Cover: React.FC<CoverProps> = ({ language, toggleLanguage }) => {
 
                             border: "1px solid white",
                             color: "white",
-                            backgroundColor: "transparent", 
+                            backgroundColor: "transparent",
                             "&:hover": {
-                                backgroundColor: "rgba(255, 255, 255, 0.1)", 
+                                backgroundColor: "rgba(255, 255, 255, 0.1)",
                             },
                             borderRadius: "8px",
-                            padding: "16px 42px", 
+                            padding: "16px 42px",
                             fontSize: '22px'
                         }}
                     >

@@ -275,6 +275,26 @@ const Home = () => {
     setLanguage((prevLanguage) => (prevLanguage === 'En' ? 'He' : 'En'));
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  if (!translations.about) {
+    return <div>Loading...</div>;
+  }
 
   const getJoinStudioElement = () => {
     const redirect = (url: string) => {

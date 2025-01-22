@@ -264,12 +264,8 @@ function App() {
 }
 
 const Home = () => {
-  const [translations, setTranslations] = useState<any>({});
+  const [translations, _setTranslations] = useState<any>(he);
   const [language, setLanguage] = useState<'En' | 'He'>('He');
-
-  useEffect(() => {
-    setTranslations(language === 'He' ? he : en);
-  }, [language]);
 
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === 'En' ? 'He' : 'En'));
@@ -291,10 +287,6 @@ const Home = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  if (!translations.about) {
-    return <div>Loading...</div>;
-  }
 
   const getJoinStudioElement = () => {
     const redirect = (url: string) => {

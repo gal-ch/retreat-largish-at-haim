@@ -82,10 +82,9 @@ const Title = styled.div`
   color: #484c52;
   transition: font-size 0.3s ease;
   margin: 0;
-
+  line-height: 1.6;
   @media (max-width: 768px) {
     font-size: 24px;
-    line-height: 1.2;
   }
 `;
 

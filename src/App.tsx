@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './App.css';
 import Contact from './components/Contact';
 import Cover from './components/Cover';

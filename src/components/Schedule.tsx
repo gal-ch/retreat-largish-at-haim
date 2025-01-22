@@ -27,7 +27,7 @@ const Schedule: React.FC = () => {
                         מעגל פתיחה  <Time>21:00-21:30</Time>
                     </TextAndTime>
                     <TextAndTime>
-                        סדנת נוכחות בחוסר וודאות מתן אגמי <Time>21:30-22:00</Time>
+                        סדנת נוכחות בחוסר וודאות מתן עגמי <Time>21:30-22:00</Time>
                     </TextAndTime>
                     <TextAndTime>
                         מעגל שירה ונגינה<Time>22:00-00:00</Time>
@@ -62,7 +62,7 @@ const Schedule: React.FC = () => {
                         סדנת תנועה יונתן שפלן <Time>21:00-22:00</Time>
                     </TextAndTime>
                     <TextAndTime>
-                        מעגלת תפליה ושירה של לב מתן אגמי<Time>22:00-00:00</Time>
+                        מעגלת תפליה ושירה של לב מתן עגמי<Time>22:00-00:00</Time>
                     </TextAndTime>
                 </>
             ),

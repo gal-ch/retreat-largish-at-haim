@@ -71,7 +71,6 @@ interface ThePlaceProps {
     title: string;
     text: string;
     extraTitle?: string;
-    images: string[];
     leftOrder: boolean;
     backgroundColor: string;
     seconderyText?: string;

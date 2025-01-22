@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import RegulationPage from './components/RegulationsPage';
 import AboutTheRetreat from './components/AboutTheRetreat';
 
-const he = {
+const translations = {
   "about": {
     "text": 'מורה ליוגה בוגרת לימודי אשטנגה וויניאסה. לאורך השנים צברתי ניסיון עשיר בהדרכה, כולל תפקיד אסיסטנטית בקורס מורי אשטנגה ב"אור היוגה תל אביב" והקמה של הסטודיו שלי, "Dani Power Yoga", בתל אביב, בו אני מלמדת קבוצות קטנות באווירה חמה ומזמינה. אני יזמית יוגה למען הקהילה, מארגנת אירועי יוגה בחוף הים וריטריטים יומיים שמחברים בין תרגול יוגה לחוויות ייחודיות. בנוסף, העברתי ריטריטים לקבוצות גדולות בסיני ורואה בכך שליחות לחבר אנשים לעצמם ולקהילה.',
     "secondery_text": " אז בגדול היוגה פה היא לא יוגה רגילה, נראה לי שזה רק תירוץ למרות שהיא מעולה והפינצה לי השתפרה פלאים והכתפיים שלי אשכרה הולכות אחורה בעצמם וואו טירוף הטירופים. ומצד שני לפעמים אני אומרת לעצמי וואלה לא נרשמתי לחוג הזה מה נסגר איתה הגוף שלי לא בנוי לדברים האלה אני רוצה הביתה למרות שבא לי להתנחל לה בסטודיו ואני מתנחלת לשעבר וזה מאוד קשה ללכת. אני סוטה מהנושא סליחה אני לא מרוכזת",
@@ -138,118 +138,6 @@ const he = {
   }
 }
 
-const en = {
-  "about": {
-    "text": "Standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.tandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. Standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.tandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five cent,",
-    "secondery_text": "k a gallStandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.ey of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting",
-    "extra_title": "ABOUT ME",
-    "title": "Yoga for the community"
-  },
-  "points":
-    ["Small classes with personal attention for every student", "Dynamic sessions tailored for both beginners and advanced practitioners", "Experience Vinyasa Ashtanga yoga that nurtures mind and body", "Join a supportive and welcoming community"]
-  ,
-  "studio": {
-    "text": "Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  but also the leap into electronic typesetting. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
-    "title": "The studio",
-    "points": [
-      "when an unknown printer took a galley of type and scrambled",
-      "gallStandard dummy text ever since the 1500s, when an unknown printe",
-      " unknown printer took a galley of type and scrambled it to make"
-    ],
-    "images": [
-      {
-        "name": "dani3.jpg",
-        "xs": 11
-      },
-      {
-        "name": "studio1.jpg",
-        "xs": 5
-      },
-      {
-        "name": "studio2.jpg",
-        "xs": 6
-      }
-    ]
-  },
-  "join_whatsapp": "Click to join the WhatsApp group for my upcoming class.",
-  "yoga_event": {
-    "text": "Standard dummy text ever since the, when an unknown printer took a gallStandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.ey of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
-    "secondery_text": "k a gallStandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.ey of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting",
-    "title": "Yoga event",
-    "images": [
-      {
-        "name": "yogaEvent2.jpg",
-        "xs": 6
-      },
-      {
-        "name": "yogaEvent6.png",
-        "xs": 6
-      },
-      {
-        "name": "yogaEvent5.png",
-        "xs": 6
-      },
-      {
-        "name": "yogaEvent3.jpg",
-        "xs": 6
-      }
-    ]
-  },
-  "retreat": {
-    "text": "Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  but also the leap into electronic typesetting. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
-    "title": "Retreats",
-    "images": [
-      {
-        "name": "dani3.jpg",
-        "xs": 5
-      },
-      {
-        "name": "studio1.jpg",
-        "xs": 6
-      },
-      {
-        "name": "studio2.jpg",
-        "xs": 3
-      },
-      {
-        "name": "yogaEvent3.jpg",
-        "xs": 4
-      },
-      {
-        "name": "yogaEvent4.jpg",
-        "xs": 4
-      }
-    ]
-  },
-  "content_creator": {
-    "text": "Standard dummy text ever since theremainin. It has survived not only five centuries, but also the leap into electronic typesetting.",
-    "title": "Content creator",
-    "videos": [
-      "https://www.instagram.com/reel/DCwPgS0ICUl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-      "https://www.w3schools.com/html/movie.mp4",
-      "https://www.w3schools.com/html/mov_bbb.mp4"
-    ]
-  },
-  "cardsDescription": [
-    {
-      "image": "yoga1.jpg",
-      "description": "has survived not only five centuries"
-    },
-    {
-      "image": "studio2.jpg",
-      "description": "tandard dummy text ever since tht to make"
-    },
-    {
-      "image": "yogaEvent3.jpg",
-      "description": "when an unknown printer took a galley of type and scrambled it to make"
-    }
-  ],
-  "next_events": {
-    "text": "Comming soon...",
-    "title": "Next events"
-  }
-}
-
 function App() {
   return (
     <Router>
@@ -264,7 +152,6 @@ function App() {
 }
 
 const Home = () => {
-  const [translations, _setTranslations] = useState<any>(he);
   const [language, setLanguage] = useState<'En' | 'He'>('He');
 
   const toggleLanguage = () => {
@@ -325,8 +212,6 @@ const Home = () => {
         title={translations.about_the_place.title}
         text={translations.about_the_place.text}
         extraTitle={translations.about_the_place.extra_title}
-        seconderyText={translations.about_the_place.secondery_text}
-        images={translations.about_the_place.images}
         leftOrder={true}
         backgroundColor={'#faf8f6'}
         extraElement={getJoinStudioElement()}

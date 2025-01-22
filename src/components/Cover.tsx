@@ -43,7 +43,7 @@ const Cover: React.FC= () => {
                 <Button onClick={handlePlay}>Play Video</Button>
                 <TextContainer>
                     <Title>ריטריט להרגיש את החיים</Title>
-                    <Title style={{ fontSize: '64px' }}>אוהל יעל</Title>
+                    <SmallTitle>אוהל יעל</SmallTitle>
 
                     <Title style={{ fontWeight: '800', fontFamily: "Secular One, serif" }}>27/2-1/3</Title>
                     <Button
@@ -88,15 +88,30 @@ const TextContainer = styled.div`
 const Title = styled.div`
   font-size: 100px;
   margin: 16px 0 32px 0;
-    font-weight: 700;
+  font-weight: 700;
   font-style: normal;
-   font-family: "Amatic SC", serif;
+  font-family: "Amatic SC", serif;
   color: white;
   @media (max-width: 768px) {
     font-size: 50px;
     font-weight: 600;
   }
 `;
+
+const SmallTitle = styled.div`
+  font-size: 64px;
+  margin: 16px 0 32px 0;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Amatic SC", serif;
+  color: white;
+  @media (max-width: 768px) {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+
+`
 
 
 export default Cover;

@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 const Schedule: React.FC = () => {
     const { ref, inView } = useInView({
         triggerOnce: true,
-        threshold: 0.3,
+        threshold: 0.2,
     });
 
     const schedules = [

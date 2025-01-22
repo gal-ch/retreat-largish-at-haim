@@ -29,7 +29,7 @@ const About: React.FC<AboutProps> = ({
 }) => {
   const { ref, inView } = useInView({
     triggerOnce: true, // Play animation only once
-    threshold: 0.3, // Trigger when 30% of the component is in view
+    threshold: 0.2, // Trigger when 30% of the component is in view
   });
 
   return (

@@ -23,7 +23,7 @@ const Section: React.FC<SectionProps> = ({
   }) => {
     const { ref, inView } = useInView({
       triggerOnce: true, // Play animation only once
-      threshold: 0.3, // Trigger when 10% of the component is in view
+      threshold: 0.2, // Trigger when 10% of the component is in view
     });
   
     return (

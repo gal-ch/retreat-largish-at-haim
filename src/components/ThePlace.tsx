@@ -86,10 +86,7 @@ const ThePlace: React.FC<ThePlaceProps> = ({
     text,
     seconderyText,
     extraTitle,
-    images,
-    leftOrder,
     backgroundColor,
-    extraElement,
     points,
     id,
 }) => {
@@ -98,7 +95,7 @@ const ThePlace: React.FC<ThePlaceProps> = ({
         threshold: 0.3,
     });
 
-    function srcset(image: string, size: number, rows = 1, cols = 1) {
+    function srcset(image: string, _size: number, _rows = 1, _cols = 1) {
         return {
             src: image,
             // srcSet: `${image}?w=${size * cols}&h=${size * rows

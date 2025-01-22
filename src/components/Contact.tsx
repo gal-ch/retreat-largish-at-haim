@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
                         borderRadius: 20,
                         marginRight: 2,
                     }}
-                    href="https://www.instagram.com/yourusername/"
+                    href="https://www.instagram.com/danielleriggsyoga/"
                     target="_blank"
                 >
                     <InstagramIcon sx={{ fontSize: 40, color: '#4f595a' }} />
@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
                     sx={{
                         borderRadius: 20,
                     }}
-                    href="https://wa.me/yourphonenumber"
+                    href="https://wa.me/+972542029014?text=היי דניאל, אשמח לפרטים לגבי הריטריט הקרוב :)"
                     target="_blank"
                 >
                     <WhatsAppIcon sx={{ fontSize: 40, color: '#4f595a' }} />

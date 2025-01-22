@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import TextInfo from './TextInfo';
 import { useInView } from 'react-intersection-observer';
 
 interface AboutProps {
@@ -20,15 +19,12 @@ interface AboutProps {
 
 const About: React.FC<AboutProps> = ({
   title,
-  text,
-  seconderyText,
   extraTitle,
   bigImage,
   smalleImage,
   leftOrder,
   backgroundColor,
   extraElement,
-  points,
   id,
 }) => {
   const { ref, inView } = useInView({

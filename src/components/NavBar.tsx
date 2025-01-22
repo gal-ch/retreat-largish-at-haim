@@ -10,14 +10,11 @@ interface NavBarProps {
 
 const NavBar: React.FC<NavBarProps> = ({ language, toggleLanguage }) => {
     const [isDrawerOpen, setDrawerOpen] = useState(false);
-    const [isChecked, setIsChecked] = useState(false);
+    const [isChecked, _setIsChecked] = useState(false);
 
     const toggleDrawer = (open: boolean) => {
         setDrawerOpen(open);
     };
-    const handleSwitchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setIsChecked(event.target.checked);
-    }
 
     const menuItems = [
         { label: language === 'En' ? "so who am i?" : "אז מי אני?", target: "about" },

@@ -42,11 +42,7 @@ const ImageWrapper = styled.div`
     border-top-right-radius: 50%;
 `;
 
-const CardImage = styled.img`
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-`;
+
 
 const CardContent = styled.div`
     padding: 16px;

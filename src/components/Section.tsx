@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Box } from '@mui/material';
+import React from 'react';
 import ImageLayout from './ImagesLayout';
 import styled from 'styled-components';
 import TextInfo from './TextInfo';

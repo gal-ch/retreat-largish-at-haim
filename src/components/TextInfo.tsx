@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'; // Example icon
-import { Diversity3 } from '@mui/icons-material';
 
 // Props interface
 interface TextBoxProps {

@@ -1,12 +1,6 @@
-import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const RegulationPage = () => {
-  const [isAccepted, setIsAccepted] = useState(false);
-
-  const handleAccept = () => {
-    setIsAccepted(true);
-  };
 
   return (
     <TermsContainer >

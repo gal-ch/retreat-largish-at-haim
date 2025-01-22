@@ -1,31 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Box, Typography } from '@mui/material';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 const Summery: React.FC = () => {
-  const points = [
-    "2 לילות בכפר הנופש אוהל יעל",
-    "ארוחות שף צמחוניות מעודנות",
-    "יין במהלך ארוחות הערב",
-    "שיעורי יוגה מרגיעים",
-    "מדיטציה עם הזריחה",
-    "סדנת צלילים מרתקת",
-    "ערב קסום עם מוזיקה",
-    "ועוד הפתעות!"
-  ];
 
-
-const containerStyle = {
-  width: '100%',
-  height: '400px',
-};
-
-const center = {
-  lat: 40.7128, // Latitude
-  lng: -74.0060, // Longitude
-};
   return (
     <Container>
       <Title>אז מה צריך לדעת?</Title>

@@ -1,13 +1,10 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Section from './components/Section';
 import Contact from './components/Contact';
 import Cover from './components/Cover';
 import MiddelInfo from './components/MiddelInfo';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import styled from 'styled-components';
-import RoundedCard from './components/RoundedCard';
-import Carousel from './components/Carousel';
 import About from './components/About';
 import ThePlace from './components/ThePlace';
 import Schedule from './components/Schedule';

@@ -1,7 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
 import Box from "@mui/joy/Box";
-import Card from "@mui/joy/Card";
 
 interface TextBoxProps {
   videos: string[];

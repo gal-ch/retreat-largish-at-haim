@@ -117,7 +117,6 @@ const he = {
     "text": "סליחה אבל מעט מאוד כמעט אפילו מעולם לא ראיתי רילסים יותר טובים ושלא נדבר על יכולת הצילום והמסירות לתפקיד",
     "title": "Content creator",
     "videos": [
-      "./src/assets/images/editor.mov",
       "https://www.w3schools.com/html/movie.mp4",
       "https://www.w3schools.com/html/mov_bbb.mp4"
     ]

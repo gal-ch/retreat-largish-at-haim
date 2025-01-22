@@ -7,60 +7,60 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 const itemData = [
     {
-        img: 'ohelyael13.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael13.png',
         title: 'Breakfast',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'ohelyael2.avif',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael2.avif',
         title: 'Burger',
     },
     {
-        img: 'ohelyael3.avif',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael3.avif',
         title: 'Camera',
     },
     {
-        img: 'ohelyael11.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael11.png',
         title: 'Coffee',
         cols: 2,
     },
     {
-        img: 'ohelyael5.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael5.png',
         title: 'Hats',
         cols: 2,
     },
     {
-        img: 'ohelyael6.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael6.png',
         title: 'Honey',
         author: '@arwinneil',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'ohelyael7.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael7.png',
         title: 'Basketball',
     },
     {
-        img: 'ohelyael8.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael8.png',
         title: 'Fern',
     },
     {
-        img: 'ohelyael9.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael9.png',
         title: 'Mushrooms',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'ohelyael1.avif',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael1.avif',
         title: 'Tomato basil',
     },
     {
-        img: 'ohelyael12.png',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael12.png',
         title: 'Sea star',
     },
     {
-        img: 'ohelyael4.avif',
+        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael4.avif',
         title: 'Bike',
         cols: 2,
     },
@@ -100,7 +100,7 @@ const ThePlace: React.FC<ThePlaceProps> = ({
 
     function srcset(image: string, size: number, rows = 1, cols = 1) {
         return {
-            src: require(`../assets/images/${image}`),
+            src: image,
             // srcSet: `${image}?w=${size * cols}&h=${size * rows
             //     }&fit=crop&auto=format&dpr=2 2x`,
         };

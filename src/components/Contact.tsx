@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
             </Text>
             <ImageContainer>
                 <img
-                    src={require("../assets/images/retreat4.png")}
+                    src={`https://prod-green-market.s3.amazonaws.com/dani/retreat4.png`}
                     style={{ width: '100%', height: '300px', borderRadius: '8px', position: 'relative', objectFit: 'cover' }}
                 />
             </ImageContainer>

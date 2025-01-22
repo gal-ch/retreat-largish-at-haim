@@ -11,7 +11,6 @@ const RoundedCard: React.FC<CardProps> = ({ image, title, description }) => {
     return (
         <CardContainer>
             <ImageWrapper>
-                <CardImage src={require(`../assets/images/${image}`)} alt={title} />
             </ImageWrapper>
             <CardContent>
                 <CardTitle>{title}</CardTitle>

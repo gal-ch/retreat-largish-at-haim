@@ -11,11 +11,11 @@ const ExtraAbout: React.FC = () => {
             <Title>מתן אגמי</Title>
             מוזיקאי מוכשר ובעל 7 שנות ניסיון טיפולי  כNLP Master, המשלב ידע מעמיק בגישה מעשית ליצירת שינוי אישי ומשמעותי. מנחה מדיטציות מרגיעות ומעצימות, המשלבות מוזיקה חיה, ומאפשרות חיבור עמוק ומאזן בין הגוף לנפש. לאורך השנים הוביל סדנאות התפתחות אישית, הן פרטניות והן קבוצתיות, תוך יצירת סביבה תומכת ומעוררת השראה.
             </Text>
-          <Image src={require(`../assets/images/matan.jpeg`)} alt="Teacher A" />
+          <Image src={`https://prod-green-market.s3.amazonaws.com/dani/matan.jpeg`} alt="Teacher A" />
           </Teacher>
 
         <Teacher>
-          <Image src={require(`../assets/images/yontan.jpeg`)} alt="Teacher B" />
+          <Image src={`https://prod-green-market.s3.amazonaws.com/dani/yontan.jpeg`} alt="Teacher B" />
           <Text>
             <Title>יונתן שפרלד</Title>
             יוצר מרחבי לב לביטוי חופשי,

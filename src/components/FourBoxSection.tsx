@@ -29,7 +29,7 @@ const FourBoxSection: React.FC<FourBoxSectionProps> = ({ imageOne, imageTwo }) =
           }}
         >
           <img
-            src={require(`../assets/images/gallery10.png`)}
+            src={`https://prod-green-market.s3.amazonaws.com/dani/gallery10.png`}
             alt="Image 1"
             style={{
               height: '100%',
@@ -99,7 +99,7 @@ const FourBoxSection: React.FC<FourBoxSectionProps> = ({ imageOne, imageTwo }) =
           }}
         >
           <img
-            src={require(`../assets/images/${imageTwo}`)}
+            src={`https://prod-green-market.s3.amazonaws.com/dani/${imageTwo}`}
             alt="Image 2"
             style={{
               height: '100%',

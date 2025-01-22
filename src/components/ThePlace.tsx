@@ -175,28 +175,4 @@ const SectionContent = styled.div`
   }
 `;
 
-const Images = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-right: 8px;
-  .large-image {
-    width: 50vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: 1;
-  }
-
-  .small-image {
-    width:30vw;;
-    height: 400px;
-    position: absolute;
-    bottom: 0px;
-    right: -50px;
-    z-index: 2;
-  }
-`;
-
 export default ThePlace;

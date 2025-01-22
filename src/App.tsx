@@ -278,11 +278,11 @@ const Home = () => {
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll('.section');
-      let currentIndex = 0;
+      let _currentIndex = 0;
       sections.forEach((section, index) => {
         const rect = section.getBoundingClientRect();
         if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-          currentIndex = index;
+          _currentIndex = index;
         }
       });
     };

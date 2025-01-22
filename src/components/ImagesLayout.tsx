@@ -14,7 +14,7 @@ const ImageLayout: React.FC<ImageLayoutProps> = ({ images }) => {
                 {images.map((image, index) => (
                     <Grid key={index} size={{ xs: 6, sm: 6, md: image.xs }}>
                         <StyledImage
-                            src={`https://prod-green-market.s3.amazonaws.com/dani/${image.name}`}
+                            src={require(`../assets/images/${image.name}`)}
                             alt={`Image ${index + 1}`}
                         />
                     </Grid>

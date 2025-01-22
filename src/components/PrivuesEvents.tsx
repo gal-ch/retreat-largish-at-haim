@@ -48,87 +48,87 @@ const Title = styled.div`
 
 const itemData = [
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery7.jpg`,
+        img: require(`../assets/images/gallery7.jpg`),
         title: 'Breakfast',
         rows: 2,
         cols: 2,
     },
     {
-        img: `https://prod-green-market.s3.amazonaws.com/dani/gallery23.png`,
+        img: require(`../assets/images/gallery23.png`),
         title: 'Burger',
     },
     {
-        img: `https://prod-green-market.s3.amazonaws.com/dani/gallery25.jpeg`,
+        img: require(`../assets/images/gallery25.jpeg`),//
         title: 'Camera',
     },
     {
-        img: `https://prod-green-market.s3.amazonaws.com/dani/gallery18.jpg`,
+        img: require(`../assets/images/gallery18.jpg`),
         title: 'Coffee',
         cols: 2,
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery22.png`,
+        img: require(`../assets/images/gallery22.png`),
         title: 'Hats',
         cols: 2,
     },
     {
-        img: `https://prod-green-market.s3.amazonaws.com/dani/gallery12.png`,
+        img: require(`../assets/images/gallery12.png`),
         title: 'Honey',
         author: '@arwinneil',
         rows: 2,
         cols: 2,
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery19.jpg`,
+        img: require(`../assets/images/gallery19.jpg`),
         title: 'Basketball',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery24.png`, title: 'Fern',
+        img: require(`../assets/images/gallery24.png`), title: 'Fern',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery13.JPG`, title: 'Mushrooms',
+        img: require(`../assets/images/gallery13.JPG`), title: 'Mushrooms',
         rows: 2,
         cols: 2,
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/retreat2.png`, title: 'Tomato basil',
+        img: require(`../assets/images/retreat2.png`), title: 'Tomato basil',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery16.png`, title: 'Sea star',
+        img: require(`../assets/images/gallery16.png`), title: 'Sea star',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery17.jpg`, title: 'Bike',
+        img: require(`../assets/images/gallery17.jpg`), title: 'Bike',
         cols: 2,
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery9.png`, title: 'Bike',
+        img: require(`../assets/images/gallery9.png`), title: 'Bike',
         cols: 2,
     },
     
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery3.png`, title: 'Mushrooms',
+        img: require(`../assets/images/gallery3.png`), title: 'Mushrooms',
         rows: 2,
         cols: 2,
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery21.jpeg`, title: 'Bike',
+        img: require(`../assets/images/gallery21.jpeg`), title: 'Bike',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery2.jpg`, title: 'Bike',
+        img: require(`../assets/images/gallery2.jpg`), title: 'Bike',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery26.jpeg`, title: 'Mushrooms',
+        img: require(`../assets/images/gallery26.jpeg`), title: 'Mushrooms',
         rows: 2,
         cols: 2,
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery27.png`, title: 'Bike',
+        img: require(`../assets/images/gallery27.png`), title: 'Bike',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery28.png`, title: 'Bike',
+        img: require(`../assets/images/gallery28.png`), title: 'Bike',
     },
     {
-        img:  `https://prod-green-market.s3.amazonaws.com/dani/gallery28.jpg`, title: 'Bike',
+        img: require(`../assets/images/gallery28.jpg`), title: 'Bike',
         cols: 2,
     },
 ];

@@ -12,13 +12,13 @@ const ExtraAbout: React.FC = () => {
             מוזיקאי ובעל 7 שנות ניסיון טיפולי כNLP Master, המשלב ידע מעמיק בגישה מעשית ליצירת שינוי אישי ומשמעותי. מנחה מדיטציות מרגיעות ומעצימות, המשלבות מוזיקה חיה, ומאפשרות חיבור עמוק ומאזן בין הגוף לנפש. לאורך השנים הוביל סדנאות התפתחות אישית, הן פרטניות והן קבוצתיות, תוך יצירת סביבה תומכת ומעוררת השראה.
           </Text>
           <Image
-            src="https://prod-green-market.s3.amazonaws.com/dani/matan.jpeg"
+            src={require(`../assets/images/matan.jpeg`)}
             alt="Teacher A"
           />
         </Teacher>
         <Teacher>
           <Image
-            src="https://prod-green-market.s3.amazonaws.com/dani/yontan.jpeg"
+            src={require(`../assets/images/yontan.jpeg`)}
             alt="Teacher B"
           />
           <Text>

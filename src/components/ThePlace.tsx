@@ -7,60 +7,60 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 const itemData = [
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael13.png',
+        img: 'ohelyael13.png',
         title: 'Breakfast',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael2.avif',
+        img: 'ohelyael2.avif',
         title: 'Burger',
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael3.avif',
+        img: 'ohelyael3.avif',
         title: 'Camera',
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael11.png',
+        img: 'ohelyael11.png',
         title: 'Coffee',
         cols: 2,
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael5.png',
+        img: 'ohelyael5.png',
         title: 'Hats',
         cols: 2,
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael6.png',
+        img: 'ohelyael6.png',
         title: 'Honey',
         author: '@arwinneil',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael7.png',
+        img: 'ohelyael7.png',
         title: 'Basketball',
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael8.png',
+        img: 'ohelyael8.png',
         title: 'Fern',
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael9.png',
+        img: 'ohelyael9.png',
         title: 'Mushrooms',
         rows: 2,
         cols: 2,
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael1.avif',
+        img: 'ohelyael1.avif',
         title: 'Tomato basil',
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael12.png',
+        img: 'ohelyael12.png',
         title: 'Sea star',
     },
     {
-        img: 'https://prod-green-market.s3.amazonaws.com/dani/ohelyael4.avif',
+        img: 'ohelyael4.avif',
         title: 'Bike',
         cols: 2,
     },
@@ -96,7 +96,7 @@ const ThePlace: React.FC<ThePlaceProps> = ({
 
     function srcset(image: string, _size: number, _rows = 1, _cols = 1) {
         return {
-            src: image,
+            src: require(`../assets/images/${image}`),
             // srcSet: `${image}?w=${size * cols}&h=${size * rows
             //     }&fit=crop&auto=format&dpr=2 2x`,
         };
@@ -175,28 +175,28 @@ const SectionContent = styled.div`
   }
 `;
 
-// const Images = styled.div`
-//   position: relative;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-start;
-//   align-items: flex-start;
-//   margin-right: 8px;
-//   .large-image {
-//     width: 50vw;
-//     height: 100vh;
-//     object-fit: cover;
-//     z-index: 1;
-//   }
+const Images = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 8px;
+  .large-image {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+  }
 
-//   .small-image {
-//     width:30vw;;
-//     height: 400px;
-//     position: absolute;
-//     bottom: 0px;
-//     right: -50px;
-//     z-index: 2;
-//   }
-// `;
+  .small-image {
+    width:30vw;;
+    height: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: -50px;
+    z-index: 2;
+  }
+`;
 
 export default ThePlace;

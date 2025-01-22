@@ -72,12 +72,12 @@ const About: React.FC<AboutProps> = ({
         <Images>
           <img
             className="large-image"
-            src={`https://prod-green-market.s3.amazonaws.com/dani/${bigImage}`}
+            src={require(`../assets/images/${bigImage}`)}
             alt="Main"
           />
           <img
             className="small-image"
-            src={`https://prod-green-market.s3.amazonaws.com/dani/${smalleImage}`}
+            src={require(`../assets/images/${smalleImage}`)}
             alt="Secondary"
             style={{
               borderRadius: '32px'

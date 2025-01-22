@@ -95,7 +95,7 @@ const Schedule: React.FC = () => {
             <Title>מה בתוכנית?</Title>
             {schedules.map((day, index) => (
                 <DayRow key={day.title} reverse={index % 2 === 1}>
-                    <Image src={`https://prod-green-market.s3.amazonaws.com/dani/${day.image}`} alt={`${day.title} image`} />
+                    <Image src={require(`../assets/images/${day.image}`)} alt={`${day.title} image`} />
                     <DayContent>
                         <DayTitle>{day.title}</DayTitle>
                         {day.content}

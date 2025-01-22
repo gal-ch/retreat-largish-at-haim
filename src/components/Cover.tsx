@@ -34,7 +34,7 @@ const Cover: React.FC<CoverProps> = ({ language, toggleLanguage }) => {
                         zIndex: -1, 
                     }}
                 >
-                    <source src={"https://prod-green-market.s3.amazonaws.com/main.mov"} type="video/mp4" />
+                    <source src={"https://prod-green-market.s3.amazonaws.com/main.mp4"} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <TextContainer>

@@ -161,7 +161,7 @@ const TextAndTime = styled.div`
   font-family: "Amatic SC", serif;
   color: #4f595a;  
   @media (max-width: 768px) {
-    font-size: 13px;
+    font-size: 12px;
     gap: 6px;
 
   }
@@ -172,7 +172,7 @@ const Time = styled.div`
   font-size: 28px;
   font-family: "Macondo", serif;
   @media (max-width: 768px) {
-    font-size: 13px;
+    font-size: 12px;
   }
 `;
 

@@ -3,7 +3,10 @@ import styled from "styled-components";
 
 const Cover: React.FC= () => {
     const isMobile = window.innerWidth <= 767; 
-    console.log(isMobile);
+    const handlePlay = () => {
+        const videoElement = document.querySelector("video");
+        videoElement?.play();
+    };
     
     return (
         <>
@@ -24,6 +27,7 @@ const Cover: React.FC= () => {
                     loop
                     muted
                     playsInline
+                    crossOrigin="anonymous"
                     style={{
                         position: "absolute",
                         top: 0,
@@ -36,6 +40,7 @@ const Cover: React.FC= () => {
                 >
                     <source src={isMobile ? require('../assets/videos/main.mp4'): "https://prod-green-market.s3.amazonaws.com/main.mp4"} type="video/mp4" />
                 </video>
+                <Button onClick={handlePlay}>Play Video</Button>
                 <TextContainer>
                     <Title>ריטריט להרגיש את החיים</Title>
                     <Title style={{ fontSize: '64px' }}>אוהל יעל</Title>

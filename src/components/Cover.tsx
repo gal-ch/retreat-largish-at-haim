@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 const Cover: React.FC= () => {
     const isMobile = window.innerWidth <= 767; 
+    console.log(isMobile);
+    
     return (
         <>
             <Box
@@ -21,6 +23,7 @@ const Cover: React.FC= () => {
                     autoPlay
                     loop
                     muted
+                    playsInline
                     style={{
                         position: "absolute",
                         top: 0,
